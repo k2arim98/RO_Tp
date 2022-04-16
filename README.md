@@ -8,9 +8,9 @@
     hub(i) : variable boolean indiquant si la ville possède un hub.
 
 # Les contraintes :
-  la somme de flow_ijkm(i)(j)(k)(m) = 1.
-  flow_ijkm(i)(j)(k)(m) = hub(k).
-  flow_ijkm(i)(j)(k)(m) = hub(m).
+  la somme de flow_ijkm(i)(j)(k)(m) = 1
+  \nflow_ijkm(i)(j)(k)(m) = hub(k).
+  \nflow_ijkm(i)(j)(k)(m) = hub(m).
 
 # La fonction objectif :
 min Z = la somme de produit flow_ijkm(i)(j)(k)(m)*Q(i)(j)*C(i)(j)(k)(m)
